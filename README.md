@@ -23,7 +23,14 @@ B or HOME leaves any of them for the launcher.
   that file is git-ignored.
 - `tools/` - `install.sh` copies everything to the badge, `run.sh` runs an app
   from RAM over serial, plus a button test and draw/sensor profilers.
-- `stock-backup/` - the badge's filesystem as shipped, to restore from.
+
+The badge's stock filesystem is not in this repo: it carries Arm's artwork and
+a commercial font. Back yours up before changing anything (see below).
+
+## Back up first
+
+With the badge in Disk mode, copy all of `/Volumes/TUFTY` somewhere safe.
+That is the whole `/system` folder, stock apps included.
 
 ## Install
 
