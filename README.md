@@ -45,3 +45,7 @@ To try an app without installing: `uv tool install mpremote`, then
   each one.
 - Core temp: `machine.ADC(machine.ADC.CORE_TEMP)`, 0.706 V at 27 C, -1.721 mV/C.
 - Buttons: A GPIO7, B GPIO9, C GPIO10, UP GPIO11, DOWN GPIO6, HOME GPIO22.
+- Hardware check (tools/button_test.py): all six buttons read low on their
+  pins when pressed. `badge.pressed()` stays false when a script is started
+  with `mpremote run`, since the button events are only fed under the
+  firmware's `launch()`; test input through the launcher, not `run.sh`.
