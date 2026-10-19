@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="HeyPCB" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+<defs><style>.cls-1{fill:url(#linear-gradient);}</style>
+<linearGradient id="linear-gradient" x1="0" y1="25" x2="50" y2="25" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#f26419"/><stop offset="1" stop-color="#ffae2d"/></linearGradient></defs>
+<path class="cls-1" d="M12,12 H38 V38 H12 Z"/>
+<path class="cls-1" d="M16,4 H20 V10 H16 Z M23,4 H27 V10 H23 Z M30,4 H34 V10 H30 Z"/>
+<path class="cls-1" d="M16,40 H20 V46 H16 Z M23,40 H27 V46 H23 Z M30,40 H34 V46 H30 Z"/>
+<path class="cls-1" d="M4,16 H10 V20 H4 Z M4,23 H10 V27 H4 Z M4,30 H10 V34 H4 Z"/>
+<path class="cls-1" d="M40,16 H46 V20 H40 Z M40,23 H46 V27 H40 Z M40,30 H46 V34 H40 Z"/>
+</svg>

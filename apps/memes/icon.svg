@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Memes" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+<defs><style>.cls-1{fill:url(#linear-gradient);}</style>
+<linearGradient id="linear-gradient" x1="0" y1="25" x2="50" y2="25" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#f26419"/><stop offset="1" stop-color="#ffae2d"/></linearGradient></defs>
+<path class="cls-1" d="M3,8 H47 V12 H3 Z M3,8 H7 V42 H3 Z M43,8 H47 V42 H43 Z M3,38 H47 V42 H3 Z"/>
+<path class="cls-1" d="M11,17 L15,15 L22,22 L15,29 L11,27 L16,22 Z"/>
+<path class="cls-1" d="M24,28 H38 V32 H24 Z"/>
+</svg>
