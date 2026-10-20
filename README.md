@@ -10,7 +10,7 @@ with Pimoroni's badgeware).
 | --- | --- | --- |
 | `heypcb` | HeyPCB promo card over animated PCB traces, QR to heypcb.ai | A/C/up/down: pitch card / full-screen QR |
 | `sysmon` | Live CPU, core temp, RAM, flash, battery, uptime, 1-minute graph | A: case lights off/on/temp-pulse, C/down/up: switch graph |
-| `memes` | 26 tech memes (Arch btw, DNS, Rust, trust me bro, vim...) in five layouts, auto slideshow | A/C: prev/next, up: random, down: pause/resume |
+| `memes` | 40 classic meme templates (Drake, Distracted Boyfriend, Expanding Brain, Gru's Plan...) captioned for devs, plus 26 live-drawn text memes, as one slideshow | A/C: prev/next, up: random, down: pause/resume |
 
 B or HOME leaves any of them for the launcher.
 
@@ -31,6 +31,19 @@ a commercial font. Back yours up before changing anything (see below).
 
 With the badge in Disk mode, copy all of `/Volumes/TUFTY` somewhere safe.
 That is the whole `/system` folder, stock apps included.
+
+## Photo memes
+
+The meme templates belong to their creators, so they are not in this repo.
+`tools/build_memes.py` downloads them from imgflip, lays each one out for the
+320x240 screen and captions it from `tools/memes.json`:
+
+    uv run --with pillow tools/build_memes.py --sheet /tmp/preview.jpg --guides
+
+That writes `apps/memes/img/*.jpg` (ignored by git), which `tools/install.sh`
+copies over with the app. The `--sheet` previews show the caption boxes, so
+a layout can be checked without the badge. It uses macOS's Impact font. The
+JPEGs must be baseline: the badge refuses progressive ones.
 
 ## Install
 

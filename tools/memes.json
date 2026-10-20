@@ -1,0 +1,1500 @@
+{
+ "_doc": "One entry per template. pieces: [sx0, sy0, sx1, sy1, dx, dy, dw, dh, mode] crop fractions of the source placed into a canvas rect, mode cover or contain; omitted means the whole image covers the 320x240 canvas. caps: [text, x, y, w, h, style, size] in canvas pixels; style impact is white with a black outline, ink is plain dark text; size is the largest size to try.",
+ "memes": [
+  {
+   "id": "always_has_been",
+   "bg": "#000000",
+   "pieces": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     30,
+     320,
+     180,
+     "contain"
+    ]
+   ],
+   "caps": [
+    [
+     "Wait, it's all Arm?",
+     0,
+     0,
+     320,
+     30,
+     "impact",
+     24
+    ],
+    [
+     "Always has been",
+     0,
+     210,
+     320,
+     30,
+     "impact",
+     24
+    ]
+   ]
+  },
+  {
+   "id": "ancient_aliens",
+   "caps": [
+    [
+     "I'm not saying it's DNS",
+     6,
+     4,
+     308,
+     60,
+     "impact",
+     30
+    ],
+    [
+     "But it's DNS",
+     6,
+     180,
+     308,
+     56,
+     "impact",
+     34
+    ]
+   ]
+  },
+  {
+   "id": "batman_slapping_robin",
+   "pieces": [
+    [
+     0,
+     0,
+     1,
+     0.74,
+     0,
+     0,
+     320,
+     240,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "Let's rewrite it in Rust thi-",
+     8,
+     6,
+     140,
+     68,
+     "ink",
+     18
+    ],
+    [
+     "IT'S A 20 LINE BASH SCRIPT",
+     168,
+     6,
+     146,
+     74,
+     "ink",
+     20
+    ]
+   ]
+  },
+  {
+   "id": "bernie_i_am_once_again_asking_for_your_support",
+   "caps": [
+    [
+     "for a review on my 4,000 line PR",
+     6,
+     4,
+     308,
+     70,
+     "impact",
+     28
+    ]
+   ]
+  },
+  {
+   "id": "blank_nut_button",
+   "caps": [
+    [
+     "Friday, 4:59 PM",
+     6,
+     4,
+     308,
+     40,
+     "impact",
+     28
+    ],
+    [
+     "git push --force",
+     30,
+     120,
+     150,
+     60,
+     "impact",
+     24
+    ]
+   ]
+  },
+  {
+   "id": "boardroom_meeting_suggestion",
+   "bg": "#ffffff",
+   "pieces": [
+    [
+     0,
+     0,
+     1,
+     0.34,
+     0,
+     0,
+     320,
+     124,
+     "cover"
+    ],
+    [
+     0,
+     0.345,
+     1,
+     0.66,
+     0,
+     124,
+     210,
+     116,
+     "cover"
+    ],
+    [
+     0.45,
+     0.67,
+     1,
+     1,
+     210,
+     124,
+     110,
+     116,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "How do we make the app faster?",
+     108,
+     2,
+     200,
+     40,
+     "ink",
+     15
+    ],
+    [
+     "More servers",
+     4,
+     136,
+     66,
+     30,
+     "ink",
+     11
+    ],
+    [
+     "Rewrite it",
+     68,
+     136,
+     60,
+     30,
+     "ink",
+     11
+    ],
+    [
+     "Delete the sleep(5)",
+     132,
+     132,
+     76,
+     36,
+     "ink",
+     11
+    ]
+   ]
+  },
+  {
+   "id": "buff_doge_vs_cheems",
+   "bg": "#ffffff",
+   "caps": [
+    [
+     "1969: landed on the moon with 4KB of RAM",
+     4,
+     182,
+     170,
+     56,
+     "ink",
+     16
+    ],
+    [
+     "2026: chat app needs 2GB to say hi",
+     182,
+     182,
+     136,
+     56,
+     "ink",
+     16
+    ]
+   ]
+  },
+  {
+   "id": "change_my_mind",
+   "caps": [
+    [
+     "print() is the best debugger",
+     6,
+     4,
+     308,
+     60,
+     "impact",
+     30
+    ]
+   ]
+  },
+  {
+   "id": "disaster_girl",
+   "caps": [
+    [
+     "Prod is on fire",
+     6,
+     4,
+     308,
+     40,
+     "impact",
+     30
+    ],
+    [
+     "I pushed straight to main",
+     6,
+     186,
+     308,
+     50,
+     "impact",
+     28
+    ]
+   ]
+  },
+  {
+   "id": "distracted_boyfriend",
+   "pieces": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     320,
+     240,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "A new side project",
+     6,
+     150,
+     120,
+     60,
+     "impact",
+     20
+    ],
+    [
+     "Me",
+     150,
+     70,
+     70,
+     30,
+     "impact",
+     22
+    ],
+    [
+     "Last week's side project",
+     222,
+     130,
+     96,
+     70,
+     "impact",
+     18
+    ]
+   ]
+  },
+  {
+   "id": "drake_hotline_bling",
+   "bg": "#ffffff",
+   "pieces": [
+    [
+     0,
+     0,
+     0.5,
+     0.5,
+     0,
+     0,
+     120,
+     120,
+     "cover"
+    ],
+    [
+     0,
+     0.5,
+     0.5,
+     1,
+     0,
+     120,
+     120,
+     120,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "Writing documentation",
+     126,
+     6,
+     188,
+     108,
+     "ink",
+     24
+    ],
+    [
+     "\"See code\" in the README",
+     126,
+     126,
+     188,
+     108,
+     "ink",
+     24
+    ]
+   ]
+  },
+  {
+   "id": "epic_handshake",
+   "caps": [
+    [
+     "Frontend",
+     4,
+     150,
+     110,
+     40,
+     "impact",
+     26
+    ],
+    [
+     "Backend",
+     210,
+     150,
+     106,
+     40,
+     "impact",
+     26
+    ],
+    [
+     "Blaming the network",
+     70,
+     6,
+     180,
+     70,
+     "impact",
+     26
+    ]
+   ]
+  },
+  {
+   "id": "expanding_brain",
+   "bg": "#ffffff",
+   "pieces": [
+    [
+     0.6,
+     0.0,
+     1,
+     0.25,
+     220,
+     0,
+     100,
+     60,
+     "cover"
+    ],
+    [
+     0.6,
+     0.25,
+     1,
+     0.5,
+     220,
+     60,
+     100,
+     60,
+     "cover"
+    ],
+    [
+     0.6,
+     0.5,
+     1,
+     0.75,
+     220,
+     120,
+     100,
+     60,
+     "cover"
+    ],
+    [
+     0.6,
+     0.75,
+     1,
+     1,
+     220,
+     180,
+     100,
+     60,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "Debugging with a debugger",
+     4,
+     2,
+     212,
+     56,
+     "ink",
+     18
+    ],
+    [
+     "print(x)",
+     4,
+     62,
+     212,
+     56,
+     "ink",
+     18
+    ],
+    [
+     "print(\"here\")",
+     4,
+     122,
+     212,
+     56,
+     "ink",
+     18
+    ],
+    [
+     "print(\"AAAAAAAA\")",
+     4,
+     182,
+     212,
+     56,
+     "ink",
+     18
+    ]
+   ]
+  },
+  {
+   "id": "futurama_fry",
+   "caps": [
+    [
+     "Not sure if feature",
+     6,
+     4,
+     308,
+     44,
+     "impact",
+     30
+    ],
+    [
+     "or bug",
+     6,
+     192,
+     308,
+     44,
+     "impact",
+     34
+    ]
+   ]
+  },
+  {
+   "id": "gru_s_plan",
+   "caps": [
+    [
+     "Write code",
+     103,
+     14,
+     52,
+     70,
+     "ink",
+     11
+    ],
+    [
+     "Ship to prod",
+     263,
+     14,
+     52,
+     70,
+     "ink",
+     11
+    ],
+    [
+     "Prod breaks",
+     103,
+     134,
+     52,
+     70,
+     "ink",
+     11
+    ],
+    [
+     "Prod breaks",
+     263,
+     134,
+     52,
+     70,
+     "ink",
+     11
+    ]
+   ]
+  },
+  {
+   "id": "hide_the_pain_harold",
+   "pieces": [
+    [
+     0,
+     0,
+     1,
+     0.5,
+     0,
+     0,
+     320,
+     240,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "My code works",
+     6,
+     4,
+     308,
+     40,
+     "impact",
+     30
+    ],
+    [
+     "I have no idea why",
+     6,
+     192,
+     308,
+     44,
+     "impact",
+     30
+    ]
+   ]
+  },
+  {
+   "id": "inhaling_seagull",
+   "pieces": [
+    [
+     0,
+     0,
+     1,
+     0.25,
+     0,
+     0,
+     160,
+     120,
+     "cover"
+    ],
+    [
+     0,
+     0.25,
+     1,
+     0.5,
+     160,
+     0,
+     160,
+     120,
+     "cover"
+    ],
+    [
+     0,
+     0.5,
+     1,
+     0.75,
+     0,
+     120,
+     160,
+     120,
+     "cover"
+    ],
+    [
+     0,
+     0.75,
+     1,
+     1,
+     160,
+     120,
+     160,
+     120,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "I",
+     4,
+     4,
+     152,
+     34,
+     "impact",
+     26
+    ],
+    [
+     "use",
+     164,
+     4,
+     152,
+     34,
+     "impact",
+     26
+    ],
+    [
+     "Arch",
+     4,
+     124,
+     152,
+     34,
+     "impact",
+     28
+    ],
+    [
+     "BTW!!!",
+     164,
+     124,
+     152,
+     40,
+     "impact",
+     36
+    ]
+   ]
+  },
+  {
+   "id": "is_this_a_pigeon",
+   "caps": [
+    [
+     "Me",
+     60,
+     100,
+     100,
+     34,
+     "impact",
+     26
+    ],
+    [
+     "An if statement",
+     196,
+     20,
+     120,
+     50,
+     "impact",
+     20
+    ],
+    [
+     "Is this AI?",
+     6,
+     196,
+     308,
+     40,
+     "impact",
+     30
+    ]
+   ]
+  },
+  {
+   "id": "left_exit_12_off_ramp",
+   "bg": "#101418",
+   "pieces": [
+    [
+     0,
+     0,
+     1,
+     1,
+     34,
+     0,
+     252,
+     240,
+     "contain"
+    ]
+   ],
+   "caps": [
+    [
+     "Fixing the bug",
+     112,
+     30,
+     76,
+     40,
+     "impact",
+     14
+    ],
+    [
+     "// TODO later",
+     186,
+     30,
+     96,
+     40,
+     "impact",
+     15
+    ],
+    [
+     "Me",
+     150,
+     186,
+     60,
+     30,
+     "impact",
+     20
+    ]
+   ]
+  },
+  {
+   "id": "leonardo_dicaprio_cheers",
+   "caps": [
+    [
+     "To whoever wrote this code",
+     6,
+     4,
+     308,
+     44,
+     "impact",
+     26
+    ],
+    [
+     "It was me. 6 months ago.",
+     6,
+     192,
+     308,
+     44,
+     "impact",
+     26
+    ]
+   ]
+  },
+  {
+   "id": "marked_safe_from",
+   "bg": "#ffffff",
+   "pieces": [
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0,
+     320,
+     240,
+     "contain"
+    ]
+   ],
+   "caps": [
+    [
+     "merge conflicts",
+     40,
+     132,
+     240,
+     44,
+     "ink",
+     24
+    ]
+   ]
+  },
+  {
+   "id": "mocking_spongebob",
+   "caps": [
+    [
+     "You should write tests",
+     6,
+     4,
+     308,
+     44,
+     "impact",
+     28
+    ],
+    [
+     "yOu ShOuLd WrItE tEsTs",
+     6,
+     192,
+     308,
+     44,
+     "impact",
+     28
+    ]
+   ]
+  },
+  {
+   "id": "monkey_puppet",
+   "pieces": [
+    [
+     0.0,
+     0.28,
+     1,
+     0.86,
+     0,
+     50,
+     320,
+     190,
+     "cover"
+    ]
+   ],
+   "bg": "#ffffff",
+   "caps": [
+    [
+     "When the PM asks who approved the PR that broke prod",
+     4,
+     0,
+     312,
+     50,
+     "ink",
+     18
+    ]
+   ]
+  },
+  {
+   "id": "most_interesting_man",
+   "caps": [
+    [
+     "I don't always test my code",
+     6,
+     4,
+     308,
+     50,
+     "impact",
+     26
+    ],
+    [
+     "But when I do, I do it in production",
+     6,
+     180,
+     308,
+     56,
+     "impact",
+     24
+    ]
+   ]
+  },
+  {
+   "id": "one_does_not_simply",
+   "caps": [
+    [
+     "One does not simply",
+     6,
+     4,
+     308,
+     40,
+     "impact",
+     30
+    ],
+    [
+     "exit vim",
+     6,
+     190,
+     308,
+     46,
+     "impact",
+     36
+    ]
+   ]
+  },
+  {
+   "id": "oprah_you_get_a",
+   "caps": [
+    [
+     "You get a dependency!",
+     6,
+     4,
+     308,
+     40,
+     "impact",
+     28
+    ],
+    [
+     "Everybody gets a dependency!",
+     6,
+     190,
+     308,
+     46,
+     "impact",
+     26
+    ]
+   ]
+  },
+  {
+   "id": "panik_kalm_panik",
+   "bg": "#ffffff",
+   "pieces": [
+    [
+     0.5,
+     0,
+     1,
+     0.333,
+     224,
+     0,
+     96,
+     80,
+     "cover"
+    ],
+    [
+     0.5,
+     0.333,
+     1,
+     0.666,
+     224,
+     80,
+     96,
+     80,
+     "cover"
+    ],
+    [
+     0.5,
+     0.666,
+     1,
+     1,
+     224,
+     160,
+     96,
+     80,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "The build is failing",
+     4,
+     4,
+     216,
+     72,
+     "ink",
+     20
+    ],
+    [
+     "It's just a flaky test",
+     4,
+     84,
+     216,
+     72,
+     "ink",
+     20
+    ],
+    [
+     "The flaky test is the one I wrote",
+     4,
+     164,
+     216,
+     72,
+     "ink",
+     20
+    ]
+   ]
+  },
+  {
+   "id": "roll_safe_think_about_it",
+   "caps": [
+    [
+     "Can't have bugs in production",
+     6,
+     4,
+     308,
+     44,
+     "impact",
+     26
+    ],
+    [
+     "if you never ship",
+     6,
+     192,
+     308,
+     44,
+     "impact",
+     30
+    ]
+   ]
+  },
+  {
+   "id": "running_away_balloon",
+   "pieces": [
+    [
+     0,
+     0,
+     1,
+     0.5,
+     0,
+     0,
+     320,
+     120,
+     "cover"
+    ],
+    [
+     0,
+     0.5,
+     1,
+     1,
+     0,
+     120,
+     320,
+     120,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "Me",
+     60,
+     40,
+     80,
+     30,
+     "impact",
+     22
+    ],
+    [
+     "Clean code",
+     200,
+     30,
+     110,
+     40,
+     "impact",
+     22
+    ],
+    [
+     "Me",
+     140,
+     150,
+     60,
+     30,
+     "impact",
+     20
+    ],
+    [
+     "Deadline",
+     20,
+     180,
+     100,
+     30,
+     "impact",
+     22
+    ],
+    [
+     "Clean code",
+     220,
+     150,
+     96,
+     40,
+     "impact",
+     20
+    ]
+   ]
+  },
+  {
+   "id": "sad_pablo_escobar",
+   "pieces": [
+    [
+     0,
+     0,
+     1,
+     0.5,
+     0,
+     0,
+     320,
+     120,
+     "cover"
+    ],
+    [
+     0,
+     0.5,
+     0.5,
+     1,
+     0,
+     120,
+     160,
+     120,
+     "cover"
+    ],
+    [
+     0.5,
+     0.5,
+     1,
+     1,
+     160,
+     120,
+     160,
+     120,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "Waiting for the build",
+     6,
+     2,
+     308,
+     30,
+     "impact",
+     22
+    ],
+    [
+     "Waiting for CI",
+     4,
+     204,
+     152,
+     34,
+     "impact",
+     20
+    ],
+    [
+     "Waiting for review",
+     164,
+     204,
+     152,
+     34,
+     "impact",
+     20
+    ]
+   ]
+  },
+  {
+   "id": "surprised_pikachu",
+   "caps": [
+    [
+     "*deploys on Friday* *prod goes down*",
+     6,
+     4,
+     308,
+     66,
+     "ink",
+     24
+    ],
+    [
+     "Me:",
+     6,
+     196,
+     100,
+     40,
+     "impact",
+     30
+    ]
+   ]
+  },
+  {
+   "id": "the_rock_driving",
+   "pieces": [
+    [
+     0,
+     0,
+     1,
+     0.333,
+     0,
+     0,
+     320,
+     80,
+     "cover"
+    ],
+    [
+     0,
+     0.333,
+     1,
+     0.666,
+     0,
+     80,
+     320,
+     80,
+     "cover"
+    ],
+    [
+     0,
+     0.666,
+     1,
+     1,
+     0,
+     160,
+     320,
+     80,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "Let's use Kubernetes",
+     196,
+     8,
+     118,
+     64,
+     "ink",
+     15
+    ],
+    [
+     "For a todo app?",
+     196,
+     90,
+     118,
+     60,
+     "ink",
+     15
+    ]
+   ]
+  },
+  {
+   "id": "the_scroll_of_truth",
+   "bg": "#ffffff",
+   "pieces": [
+    [
+     0,
+     0,
+     1,
+     1,
+     35,
+     0,
+     250,
+     240,
+     "contain"
+    ]
+   ],
+   "caps": [
+    [
+     "No tests means no failing tests",
+     47,
+     140,
+     70,
+     74,
+     "ink",
+     12
+    ]
+   ]
+  },
+  {
+   "id": "tuxedo_winnie_the_pooh",
+   "bg": "#ffffff",
+   "pieces": [
+    [
+     0,
+     0,
+     0.42,
+     0.5,
+     0,
+     0,
+     128,
+     120,
+     "cover"
+    ],
+    [
+     0,
+     0.5,
+     0.42,
+     1,
+     0,
+     120,
+     128,
+     120,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "I use Arch",
+     134,
+     6,
+     180,
+     108,
+     "ink",
+     26
+    ],
+    [
+     "I use Arch on Arm, btw",
+     134,
+     126,
+     180,
+     108,
+     "ink",
+     26
+    ]
+   ]
+  },
+  {
+   "id": "two_buttons",
+   "bg": "#ffffff",
+   "pieces": [
+    [
+     0,
+     0,
+     1,
+     0.48,
+     0,
+     0,
+     320,
+     130,
+     "cover"
+    ],
+    [
+     0,
+     0.5,
+     1,
+     0.98,
+     0,
+     130,
+     320,
+     110,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "Ship on Friday",
+     60,
+     20,
+     100,
+     44,
+     "ink",
+     15
+    ],
+    [
+     "Ship on Monday",
+     168,
+     14,
+     100,
+     44,
+     "ink",
+     15
+    ],
+    [
+     "Me at 4:59 PM",
+     6,
+     200,
+     308,
+     38,
+     "impact",
+     26
+    ]
+   ]
+  },
+  {
+   "id": "uno_draw_25_cards",
+   "caps": [
+    [
+     "Read the error message",
+     40,
+     50,
+     100,
+     60,
+     "ink",
+     16
+    ],
+    [
+     "Me",
+     200,
+     196,
+     110,
+     40,
+     "impact",
+     28
+    ]
+   ]
+  },
+  {
+   "id": "waiting_skeleton",
+   "caps": [
+    [
+     "Me waiting for",
+     6,
+     4,
+     308,
+     40,
+     "impact",
+     30
+    ],
+    [
+     "npm install to finish",
+     6,
+     192,
+     308,
+     44,
+     "impact",
+     28
+    ]
+   ]
+  },
+  {
+   "id": "woman_yelling_at_cat",
+   "bg": "#000000",
+   "pieces": [
+    [
+     0,
+     0.24,
+     1,
+     1,
+     0,
+     34,
+     320,
+     206,
+     "cover"
+    ]
+   ],
+   "caps": [
+    [
+     "You broke prod!",
+     4,
+     2,
+     156,
+     32,
+     "impact",
+     20
+    ],
+    [
+     "Works on my machine",
+     162,
+     2,
+     156,
+     32,
+     "impact",
+     18
+    ]
+   ]
+  },
+  {
+   "id": "x_x_everywhere",
+   "caps": [
+    [
+     "JavaScript frameworks",
+     6,
+     4,
+     308,
+     40,
+     "impact",
+     30
+    ],
+    [
+     "JavaScript frameworks everywhere",
+     6,
+     192,
+     308,
+     44,
+     "impact",
+     26
+    ]
+   ]
+  },
+  {
+   "id": "y_all_got_any_more_of_that",
+   "caps": [
+    [
+     "Y'all got any more of them",
+     6,
+     4,
+     308,
+     44,
+     "impact",
+     28
+    ],
+    [
+     "Arm badges?",
+     6,
+     192,
+     308,
+     44,
+     "impact",
+     32
+    ]
+   ]
+  }
+ ]
+}

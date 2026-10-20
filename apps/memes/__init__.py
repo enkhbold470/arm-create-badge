@@ -1,5 +1,9 @@
 """
-Tech memes: Arch btw, it's always DNS, rewrite it in Rust, trust me bro and more.
+Tech memes: Drake, Distracted Boyfriend, Arch btw, it's always DNS, trust me bro.
+
+The classic templates are captioned on a computer by tools/build_memes.py and
+copied here as img/*.jpg; the text memes below are drawn live. Without the
+img folder the app runs on the text memes alone.
 
 Controls:
 * A and C = Previous and next meme (pauses the slideshow)
@@ -272,8 +276,42 @@ def draw_count(label, number, age):
   screen.text(shown, int(WIDTH / 2 - w / 2), int(152 - big * 0.62), big)
 
 
+# --- the photo memes ------------------------------------------------------------
+PHOTO_DIR = "/system/apps/memes/img"
+
+
+def photo_names():
+  try:
+    with open(PHOTO_DIR + "/index.txt") as f:
+      return [line.strip() for line in f if line.strip()]
+  except OSError:
+    return []
+
+
+# one photo held at a time: a 320x240 frame is 300KB once decoded
+held = [None, None]
+
+
+def draw_photo(name, age):
+  if held[0] != name:
+    held[1] = None              # let the last frame go before decoding the next
+    held[1] = image.load("%s/%s" % (PHOTO_DIR, name))
+    held[0] = name
+  screen.blit(held[1], 0, 0)
+
+
 DRAW = {"term": draw_term, "drake": draw_drake, "big": draw_big,
-        "quote": draw_quote, "count": draw_count}
+        "quote": draw_quote, "count": draw_count, "photo": draw_photo}
+
+# two photos for every text meme, so the slideshow mixes them through
+photos = [("photo", name) for name in photo_names()]
+texts = list(MEMES)
+MEMES = []
+while photos or texts:
+  MEMES.extend(photos[:2])
+  del photos[:2]
+  if texts:
+    MEMES.append(texts.pop(0))
 
 AUTO_MS = 9000
 SLIDE_MS = 250

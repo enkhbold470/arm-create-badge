@@ -2,3 +2,5 @@ config/secrets.py
 .DS_Store
 ._*
 __pycache__/
+tools/.meme-cache/
+apps/memes/img/
