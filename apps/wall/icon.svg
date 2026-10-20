@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Wall" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+<defs><style>.cls-1{fill:url(#linear-gradient);}</style>
+<linearGradient id="linear-gradient" x1="0" y1="25" x2="50" y2="25" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#f26419"/><stop offset="1" stop-color="#ffae2d"/></linearGradient></defs>
+<path class="cls-1" d="M4,6 H46 V34 H22 L12,44 L13,34 H4 Z"/>
+</svg>

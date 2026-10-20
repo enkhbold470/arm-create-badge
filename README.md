@@ -11,6 +11,8 @@ with Pimoroni's badgeware).
 | `heypcb` | HeyPCB promo card over animated PCB traces, QR to heypcb.ai | A/C/up/down: pitch card / full-screen QR |
 | `sysmon` | Live CPU, core temp, RAM, flash, battery, uptime, 1-minute graph | A: case lights off/on/temp-pulse, C/down/up: switch graph |
 | `memes` | 40 classic meme templates (Drake, Distracted Boyfriend, Expanding Brain, Gru's Plan...) captioned for devs, plus 26 live-drawn text memes, as one slideshow | A/C: prev/next, up: random, down: pause/resume |
+| `wall` | Live message wall: people scan the QR, send a message from their phone, it pops up on the badge and the case lights chase | A/C: older/newer, up: big QR, down: hide message |
+| `update` | Updates the apps over WiFi from this repo's `main` branch, verifying every file's sha256 | B: check, install, restart |
 
 B or HOME leaves any of them for the launcher.
 
@@ -31,6 +33,25 @@ a commercial font. Back yours up before changing anything (see below).
 
 With the badge in Disk mode, copy all of `/Volumes/TUFTY` somewhere safe.
 That is the whole `/system` folder, stock apps included.
+
+## Message wall
+
+`server/` is a Cloudflare Worker with a Durable Object (SQLite) holding the
+messages. The page at https://badge-wall.enkhbold470.workers.dev takes a name
+and an 80-character message, refuses links and the worst words, and limits
+each sender to one message per 15 s and 10 an hour. The badge polls
+`/api/inbox` every 6 s with a token, and can hide a message for good.
+
+    cd server && npm install && npx wrangler deploy
+    npx wrangler secret put BADGE_TOKEN      # then the same value as WALL_TOKEN in secrets.py
+
+## Updates over WiFi
+
+`manifest.json` lists every app file and its sha256; the `update` app reads it
+at the newest commit on `main` and downloads only the files that differ, each
+checked against its hash before it replaces the old one. It refuses to run
+while the badge is mounted as a drive. A pre-commit hook regenerates the
+manifest; enable it once per clone with `git config core.hooksPath .githooks`.
 
 ## Photo memes
 

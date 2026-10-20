@@ -1,0 +1,3 @@
+#!/bin/sh
+# keep manifest.json in step with the apps, for the badge's updater
+python3 tools/make_manifest.py && git add manifest.json

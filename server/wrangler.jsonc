@@ -1,0 +1,10 @@
+{
+  "name": "badge-wall",
+  "account_id": "9839a9d0e9ed6945f908555082c33ff8",
+  "main": "src/index.js",
+  "compatibility_date": "2025-09-01",
+  "durable_objects": {
+    "bindings": [{ "name": "WALL", "class_name": "Wall" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["Wall"] }]
+}
