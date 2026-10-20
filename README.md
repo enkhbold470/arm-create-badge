@@ -56,3 +56,8 @@ To try an app without installing: `uv tool install mpremote`, then
   pins when pressed. `badge.pressed()` stays false when a script is started
   with `mpremote run`, since the button events are only fed under the
   firmware's `launch()`; test input through the launcher, not `run.sh`.
+- The stock badge app links LinkedIn through `https://lnkd.in/in/<handle>`,
+  which is LinkedIn's shortener rather than a profile path. On this badge the
+  `NETWORKS` entry in `/system/apps/badge/__init__.py` was changed to
+  `https://www.linkedin.com/in/<handle>` and moved after X, so the cards run
+  name, GitHub, X, LinkedIn.

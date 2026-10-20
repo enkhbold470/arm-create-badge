@@ -26,7 +26,7 @@ MASTODON = ""
 # The tail of your profile address, after /in/. Change it under Edit public
 # profile and URL, on the right of your own profile page.
 #   linkedin.com/in/pimoroni  ->  "pimoroni"
-LINKEDIN = ""
+LINKEDIN = "enkhbold470"
 
 # Your username, which is the name in the top right menu, not the display one.
 #   github.com/pimoroni  ->  "pimoroni"
